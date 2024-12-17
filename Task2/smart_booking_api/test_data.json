@@ -1,0 +1,63 @@
+{
+    "users": [
+        {
+            "first_name": "Alice",
+            "last_name": "Smith",
+            "email": "alice@example.com",
+            "password": "password",
+            "role": "USER"
+        },
+        {
+            "first_name": "Charlie",
+            "last_name": "Davis",
+            "email": "charlie@example.com",
+            "password": "password",
+            "role": "USER"
+        },
+        {
+            "first_name": "Bob",
+            "last_name": "Brown",
+            "email": "bob@example.com",
+            "password": "password",
+            "role": "OWNER"
+        }
+    ],
+    "properties": [
+        {
+            "owner_id": 4,
+            "name": "Beautiful Apartment",
+            "description": "This is a beautiful apartment",
+            "rooms": 2,
+            "price": 50.0,
+            "location": "New York"
+        }
+    ],
+    "bookings": [
+        {
+            "property_id": 1,
+            "user_id": 2,
+            "start_date": "2024-12-10",
+            "end_date": "2024-12-12",
+            "status": "PENDING"
+        },
+        {
+            "property_id": 1,
+            "user_id": 3,
+            "start_date": "2024-12-11",
+            "end_date": "2024-12-14",
+            "status": "CONFIRMED"
+        }
+    ],
+    "payments": [
+        {
+            "booking_id": 1,
+            "amount": 100.0,
+            "status": "PENDING"
+        },
+        {
+            "booking_id": 2,
+            "amount": 150.0,
+            "status": "SUCCESS"
+        }
+    ]
+}
